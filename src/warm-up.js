@@ -97,4 +97,4 @@ var planet = [
 
 // Write the code to add the key of habitable, with the value of true. Use dot
 // notation to do this. DO NOT modify your code from above.
-planet.habitable = true
+planet[0].habitable = true
