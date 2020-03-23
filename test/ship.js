@@ -133,7 +133,7 @@ describe('Ship', function() {
     assert.instanceOf(fighter.captain, Being);
   })
 
-  it.skip('has no crew by default', function() {
+  it('has no crew by default', function() {
     var fighter = new Ship(
       {
         name: 'Atlantis',
